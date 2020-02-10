@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Amazon Login ">
+	<test name="Amazon Login test">
+		<classes>
+			<class name="amazonTest.HomepageTest">
+			</class>
+			<class name="amazonTest.amazonEmailTest">
+			</class>
+			<class name="amazonTest.amazonPassTest">
+			</class>
+
+		</classes>
+	</test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

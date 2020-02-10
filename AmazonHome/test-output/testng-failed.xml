@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Amazon Login ]">
+  <test name="Amazon Login test(failed)">
+    <classes>
+      <class name="amazonTest.amazonPassTest">
+        <methods>
+          <include name="tearoff"/>
+          <include name="enterpasstest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- amazonTest.amazonPassTest -->
+      <class name="amazonTest.amazonEmailTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearOff"/>
+        </methods>
+      </class> <!-- amazonTest.amazonEmailTest -->
+      <class name="amazonTest.HomepageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="signinclicktest"/>
+        </methods>
+      </class> <!-- amazonTest.HomepageTest -->
+    </classes>
+  </test> <!-- Amazon Login test(failed) -->
+</suite> <!-- Failed suite [Amazon Login ] -->
